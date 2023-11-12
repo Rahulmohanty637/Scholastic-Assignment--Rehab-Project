@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(181, 188, 78);
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+textarea{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 10px;
+    outline: 1;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+form .choose-file input{
+    border: none;
+    outline: none;
+    width: 1220px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form .button input{
+    margin-top: 65px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1;
+    font-weight: bolder;
+    cursor: pointer;
+    /* background: linear-gradient(135deg, #f9a620, #ffd449,#aab03c, #548c2f, #104911); */
+    background: black;
+}
+
+
+
